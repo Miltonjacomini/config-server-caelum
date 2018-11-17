@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.104:3306/courses
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
+
+# rabbitmq:
+#   host: 192.168.1.9
+#   port: 5672
+#   username: guest
+#   password: guest

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.13:3306/forum
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
+
+# rabbitmq:
+#   host: 192.168.1.9
+#   port: 5672
+#   username: guest
+#   password: guest
