@@ -24,7 +24,7 @@ services:
   url:
     users: 192.168.0.241
     forum: 192.168.1.13
-    courses: 192.168.0.104
+    courses: 192.168.0.216
     gamefication: 192.168.1.11
     payments: 192.168.1.11
     infra: 192.168.1.9
