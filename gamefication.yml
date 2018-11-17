@@ -20,8 +20,3 @@ management:
           - health
           - info
           - hystrix.stream
-# rabbitmq:
-#   host: 192.168.1.9
-#   port: 5672
-#   username: guest
-#   password: guest
