@@ -30,7 +30,7 @@ services:
     infra: 192.168.1.9
 eureka:
   instance:
-    hostname: "${HOSTNAME:localhost}"
+    hostname: 192.168.0.216
     instance-id: "${spring.application.name}-${random.uuid}"
   client:
     service-url:
