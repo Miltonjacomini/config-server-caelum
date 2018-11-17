@@ -1,7 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://192.168.1.11:3306/alura_payment
-
+    url: jdbc:mysql://localhost:3306/alura_payment
+    user: root
+    password: caelum
   jpa:
     hibernate:
       ddl-auto: update
