@@ -7,7 +7,14 @@ spring:
     hibernate:
       ddl-auto: update
       show-sql: false
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - hystrix.stream
 # rabbitmq:
 #   host: 192.168.1.9
 #   port: 5672
